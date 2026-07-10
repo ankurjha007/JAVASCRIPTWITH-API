@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Profile Finder</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>GitHub <span>Profile Finder</span></h1>
+
+    <p class="subtitle">
+        Search any GitHub user and explore their profile
+    </p>
+
+    <div class="search-box">
+
+        <input
+            type="text"
+            id="username"
+            placeholder="Enter GitHub Username..."
+        >
+
+        <button id="searchBtn">
+            Search
+        </button>
+
+    </div>
+
+    <div id="loading" class="loading"></div>
+
+    <div id="profile" class="profile"></div>
+
+</div>
+
+
+<script src="node.js"></script>
+
+</body>
+</html>
